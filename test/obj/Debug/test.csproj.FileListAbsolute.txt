@@ -1,0 +1,6 @@
+C:\Users\39438\Desktop\SocketTest\test\bin\Debug\test.exe.config
+C:\Users\39438\Desktop\SocketTest\test\bin\Debug\test.exe
+C:\Users\39438\Desktop\SocketTest\test\bin\Debug\test.pdb
+C:\Users\39438\Desktop\SocketTest\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\39438\Desktop\SocketTest\test\obj\Debug\test.exe
+C:\Users\39438\Desktop\SocketTest\test\obj\Debug\test.pdb

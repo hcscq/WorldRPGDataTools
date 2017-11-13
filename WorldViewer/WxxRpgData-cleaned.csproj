@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{EEC35F1F-025C-4743-BC7A-BEC5141A5A90}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>WxxRpgData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WxxRpgData.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\Debug\WorldRpg\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DSkin" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data.SQLite" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrickeInMagicWorldRPG\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrickeInMagicWorldRPG\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrickeInMagicWorldRPG\MargicEquip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorldRpgCommon\ConvertHelper.cs" />
+    <Compile Include="WorldRpgCommon\Dll.cs" />
+    <Compile Include="WorldRpgCommon\FolderBrowserDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorldRpgCommon\FolderNameEditor.cs" />
+    <Compile Include="WorldRpgCommon\IniHelper.cs" />
+    <Compile Include="WorldRpgCommon\SqliteHelper.cs" />
+    <Compile Include="WorldRpgEquip.Services\BossDropOutService.cs" />
+    <Compile Include="WorldRpgEquip.Services\BossService.cs" />
+    <Compile Include="WorldRpgEquip.Services\EquipService.cs" />
+    <Compile Include="WorldRpgEquip.Services\HeroService.cs" />
+    <Compile Include="WorldRpgEquip.Services\MaterialService.cs" />
+    <Compile Include="WorldRpgModel\BossDropOutShow.cs" />
+    <Compile Include="WorldRpgModel\BossDropOut.cs" />
+    <Compile Include="WorldRpgModel\Boss.cs" />
+    <Compile Include="WorldRpgModel\CustomEquip.cs" />
+    <Compile Include="WorldRpgModel\EnumQuality.cs" />
+    <Compile Include="WorldRpgModel\Equip.cs" />
+    <Compile Include="WorldRpgModel\Exclusive.cs" />
+    <Compile Include="WorldRpgModel\Hero.cs" />
+    <Compile Include="WorldRpgModel\Material.cs" />
+    <Compile Include="WorldRpgModel\SaveDataHistory.cs" />
+    <Compile Include="WorldRpgService\CustomEquipService.cs" />
+    <Compile Include="WorldRpgService\ExclusiveServices.cs" />
+    <Compile Include="WorldRpgService\SaveDataHistoryService.cs" />
+    <Compile Include="WxxRpgData\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WxxRpgData\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PrickeInMagicWorldRPG\MargicEquip.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

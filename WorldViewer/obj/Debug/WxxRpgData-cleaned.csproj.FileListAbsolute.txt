@@ -1,0 +1,8 @@
+C:\Users\39438\Desktop\SocketTest\WorldViewer\obj\Debug\PrickeInMagicWorldRPG.MargicEquip.resources
+C:\Users\39438\Desktop\SocketTest\WorldViewer\obj\Debug\WxxRpgData-cleaned.csproj.GenerateResource.Cache
+C:\Users\39438\Desktop\SocketTest\WorldViewer\bin\Debug\WxxRpgData.exe
+C:\Users\39438\Desktop\SocketTest\WorldViewer\bin\Debug\WxxRpgData.pdb
+C:\Users\39438\Desktop\SocketTest\WorldViewer\obj\Debug\WxxRpgData.exe
+C:\Users\39438\Desktop\SocketTest\WorldViewer\obj\Debug\WxxRpgData.pdb
+C:\Users\39438\Desktop\SocketTest\Debug\WorldRpg\WxxRpgData.exe
+C:\Users\39438\Desktop\SocketTest\Debug\WorldRpg\WxxRpgData.pdb

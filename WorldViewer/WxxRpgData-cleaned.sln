@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WxxRpgData-cleaned", "WxxRpgData-cleaned.csproj", "{EEC35F1F-025C-4743-BC7A-BEC5141A5A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHelper", "..\DataHelper\DataHelper.csproj", "{25B9995F-FFE2-42A5-AA17-D41AED022C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "..\test\test.csproj", "{03343289-1929-4D7B-872A-3D0F706FCD97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEC35F1F-025C-4743-BC7A-BEC5141A5A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC35F1F-025C-4743-BC7A-BEC5141A5A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC35F1F-025C-4743-BC7A-BEC5141A5A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC35F1F-025C-4743-BC7A-BEC5141A5A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B9995F-FFE2-42A5-AA17-D41AED022C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B9995F-FFE2-42A5-AA17-D41AED022C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B9995F-FFE2-42A5-AA17-D41AED022C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B9995F-FFE2-42A5-AA17-D41AED022C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03343289-1929-4D7B-872A-3D0F706FCD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03343289-1929-4D7B-872A-3D0F706FCD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03343289-1929-4D7B-872A-3D0F706FCD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03343289-1929-4D7B-872A-3D0F706FCD97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
